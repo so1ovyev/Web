@@ -1,0 +1,84 @@
+@font-face {
+    font-family: header;
+    src: url(/assets/fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: Footer;
+    src: url(/assets/fonts/Montserrat-ExtraLight.ttf);
+}
+@font-face {
+    font-family: about;
+    src: url(/assets/fonts/Montserrat-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family: main;
+    src: url(/assets/fonts/Montserrat-Bold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-image: url(/assets/img/logo.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+}
+
+.header{
+    text-align: center;
+    padding: 180px 0 25px 0;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h1{
+    letter-spacing: 25px;
+    font-family: header;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    padding: 10px 20px 1px 1px;
+}
+
+.main
+{
+    text-align: center;
+    font-family: main;
+}
+
+.about
+{
+    text-align: left;
+    margin: 170px 1px 1px 10px; 
+    color: rgb(255, 255, 255);
+    font-family: about;
+    font-size: 20px;
+}
+
+.site
+{
+    text-align: right;
+    margin: 1px 10px 100px 0; 
+    color: rgb(255, 255, 255);
+    font-family: about;
+    font-size: 20px;
+}
+
+.footer_text
+{
+    text-align: center;
+    margin: 10px 0 0 0;
+    color: rgb(255, 255, 255);
+    font-family: footer;
+}
+
+a{
+    color:rgb(0, 178, 202)
+}
